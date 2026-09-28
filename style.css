@@ -1,0 +1,201 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   box-sizing: border-box;
+   list-style: none;
+}
+body {
+   background-color: #223555;
+   color: white;
+}
+.amarelo {
+   color: #f5b700;
+}
+
+/*CABEÇALHO*/
+header {
+   padding: 30px 20px;
+   background-color: #061629;
+   display: flex;
+   justify-content: space-between;
+}
+header {
+
+}
+header ul {
+   display: flex;
+   gap: 5px;
+}
+
+header ul li a {
+   color: #f5b700;
+   font-size: small;
+}
+
+main {
+   background-color: #1d4c8b;
+}
+#principal {
+   padding: 20px 20px 60px 20px;
+   margin-bottom: 2px;
+   background-color: #0b1f3a;
+}
+#principal p.amarelo {
+   padding: 20px 0px;
+   font-weight: bolder;
+}
+
+#principal h1 {
+   width: 40%;
+   padding: 5px 0px;
+   font-weight: bolder;
+} 
+
+#principal p#info {
+   color: #acbed6;
+   padding: 20px 0px;
+}
+
+#principal #botao {
+   text-align: center;
+   color: #1d2d2a;
+   padding: 20px;
+   border-radius: 10px;
+   font-size: larger;
+   font-weight: bolder;
+   background-color: #f5b700;
+}
+
+#sobre {
+   background-color: #0b1f3a;
+   padding: 30px 20px;
+   margin-bottom: 2px;
+}
+
+#sobre #titulo {
+   padding: 15px 0px 10px 0px;
+   font-weight: bolder;
+}
+
+#sobre .funciona {
+   background-color: #13305a;
+   padding: 15px 20px;
+   margin: 15px 0px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+}
+
+#sobre .funciona .amarelo {
+   font-size: 2em;
+   padding-right: 15px;
+}
+
+#sobre .funciona div p {
+   color: #acbed6;
+   padding-top: 5px;
+}
+
+#menu {
+   background-color: #0b1f3a;
+   padding: 40px 20px;
+   margin-bottom: 2px;
+}
+
+#menu .cardapio .amarelo {
+   font-weight: bolder;
+   font-size: 1.5em;
+}
+#menu h2 {
+   padding: 10px 0px;
+   font-weight: bolder;
+}
+
+#menu .cardapio {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #13305a;
+   padding: 10px 20px;
+   margin: 10px 0px;
+   border-radius: 10px;
+}
+
+#menu article {
+   display: flex;
+   align-items: center;
+}
+
+#menu .cardapio article div#mais p {
+   color: #acbed6;
+}
+
+#menu article div#destaque {
+   border-radius: 10px;
+   margin: 10px 20px 10px 0px;
+   width: 70px;
+   height: 70px;
+   background-color: #1b3b62;
+   position: relative;
+}
+
+#menu article div span {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #1b3b62;
+   border: solid 5px;
+   border-radius: 50%;
+   display: block;
+   width: 40px;
+   height: 40px;
+}
+
+#pedido {
+   padding: 40px 20px;
+   background-color: #0b1f3a;
+}
+
+#pedido h2 {
+   padding: 10px 0px 30px 0px;
+}
+
+#pedido div {
+   background-color: #13305a;
+   margin: 10px 0px;
+   border-radius: 10px;
+   padding: 30px 20px;
+   font-weight: bolder;
+   font-size: 1.2em;
+   color: #acbed6;
+}
+
+#pedido div#botao_pedido {
+   background-color: #f5b700;
+   text-align: center;
+   color: #13305a;
+   font-weight: bolder;
+ font-size: 1.5em;
+}
+
+/*RODAPÉ*/
+footer {
+   padding: 40px;
+   background-color: #061629;
+   text-align: center;
+}
+
+footer h2{
+   padding: 10px;
+}
+footer p {
+   color: #acbed6;
+}
+footer div {
+   color: #acbed6;
+   padding: 5px;
+   margin: 10px;
+}
