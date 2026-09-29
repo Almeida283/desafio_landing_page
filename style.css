@@ -21,17 +21,40 @@ header {
    display: flex;
    justify-content: space-between;
 }
-header {
 
+header #princ_menu {
+   color: #f5b700;
+   cursor: pointer;
+   font-size: xx-large;
 }
+
 header ul {
-   display: flex;
-   gap: 5px;
+   display: none;
 }
+
+header .men {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+
+header .men:hover> ul{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   cursor: pointer;
+}
+
 
 header ul li a {
-   color: #f5b700;
+   color: white;
    font-size: small;
+   padding: 5px;
+}
+
+header ul li a:hover {
+   color: #f5b700;
+   transition: color .5s;
 }
 
 main {
